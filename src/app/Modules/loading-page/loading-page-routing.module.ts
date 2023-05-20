@@ -20,23 +20,28 @@ const routes: Routes = [
       {
         path: 'home',
         component: HomeComponent,
-        pathMatch: 'full'
+        pathMatch: 'full',
+        title: 'Inicio'
       },
       {
         path: 'skills',
         component: SkillsComponent,
+        title: 'Habilidades'
       },
       {
         path: 'experiences',
-        component: ExperiencesComponent
+        component: ExperiencesComponent,
+        title: 'Experiencias'
       },
       {
         path: 'projects',
-        component: ProjectsComponent
+        component: ProjectsComponent,
+        title: 'Proyectos'
       },
       {
         path: 'contact',
-        component: ContactComponent
+        component: ContactComponent,
+        title: 'Contacto'
       }
     ]
  }
