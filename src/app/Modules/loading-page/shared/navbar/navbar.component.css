@@ -25,9 +25,3 @@
     background-color: white !important;
     border: #5000ca solid 2px !important;
 }
-
-.nav-item{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
