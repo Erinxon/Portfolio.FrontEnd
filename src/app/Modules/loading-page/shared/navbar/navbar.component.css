@@ -1,0 +1,33 @@
+.nav-link {
+    background-color: #5000ca !important;
+    color: white !important;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+
+.navbar-nav {
+    gap: 50px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        gap: 5px !important;
+    }
+}
+
+.active {
+    color: #5000ca !important;
+    background-color: white !important;
+    border: #5000ca solid 2px !important;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
