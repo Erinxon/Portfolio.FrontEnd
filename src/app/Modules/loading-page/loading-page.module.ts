@@ -13,11 +13,6 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    SkillsComponent,
-    ProjectsComponent,
-    ExperiencesComponent,
-    ContactComponent,
     LoadingPageComponent,
   ],
   imports: [

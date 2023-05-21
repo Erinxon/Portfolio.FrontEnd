@@ -1,0 +1,77 @@
+.experience-header{
+    background-color: #5000ca;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-description{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px;
+    border: #5000ca solid 2px !important;
+}
+
+.skills{
+    display: flex;
+    gap: 10px;
+}
+
+.skill{
+    background-color: #5000ca !important;
+    color: white !important;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 178px;
+    height: 178px;
+    border-radius: 50%;
+    object-fit: contain; 
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company-name{
+    font-size: 1.5em;
+    color: rgb(96, 92, 92);
+}
+
+.text-description{
+    font-size: 1.2em;
+    color: rgb(96, 92, 92);
+}
+
+@media only screen and (max-width: 768px) {
+    .experience-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+}
