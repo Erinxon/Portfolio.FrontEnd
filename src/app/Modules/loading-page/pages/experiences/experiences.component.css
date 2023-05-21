@@ -1,7 +1,7 @@
 .experience-header{
     background-color: #273036;
     font-weight: bold;
-    color: #fff;
+    color: #f3f4f5;
     padding: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    background-color: #fff;
+    background-color: #f3f4f5;
     padding: 20px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -29,7 +29,7 @@
 
 .skill{
     background-color: #5000ca !important;
-    color: white !important;
+    color: #f3f4f5 !important;
     margin-top: 0.5em;
     border-radius: 10px;
     padding: 6px;
@@ -48,7 +48,8 @@
     width: 178px;
     height: 178px;
     border-radius: 50%;
-    object-fit: contain; 
+    mix-blend-mode: multiply;
+    object-fit: contain;
 }
 
 .description{

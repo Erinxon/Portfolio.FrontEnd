@@ -3,7 +3,7 @@
     padding: 30px;
     border-radius: 5px;
     background-color: #273036;
-    box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #f3f4f5;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -15,12 +15,12 @@
 
 
 .title{
-    color: #fff;
+    color: #f3f4f5;
     font-weight: bold;
 }
 
 .description{
-    color: #fff;
+    color: #f3f4f5;
     font-size: 1.2em;
 }
 
@@ -31,7 +31,7 @@
 
 .skill{
     background-color: #5000ca !important;
-    color: white !important;
+    color: #f3f4f5 !important;
     margin-top: 0.5em;
     border-radius: 10px;
     padding: 6px;
@@ -39,8 +39,6 @@
     cursor: pointer;
     text-decoration: none;
 }
-
-
 
 .footer{
     display: flex;
@@ -67,6 +65,7 @@
 img{
     width: 50%;
     height: 50%;
+    mix-blend-mode: multiply;
     object-fit: contain;
 }
 
