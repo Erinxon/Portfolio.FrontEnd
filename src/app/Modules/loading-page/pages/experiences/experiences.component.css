@@ -5,7 +5,6 @@
     padding: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    /*box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);*/
     display: flex;
     justify-content: space-between;
 }
@@ -47,9 +46,9 @@
 .logo img{
     width: 178px;
     height: 178px;
-    border-radius: 50%;
     mix-blend-mode: multiply;
     object-fit: contain;
+    
 }
 
 .description{
@@ -61,12 +60,23 @@
 .company-name{
     font-size: 1.5em;
     color: rgb(96, 92, 92);
+    font-weight: bold;
 }
 
 .text-description{
-    font-size: 1.2em;
-    color: rgb(96, 92, 92);
+    background-color: #273036;
+    border-radius: 5px;
 }
+
+.text-description p{
+    font-size: 1.2em;
+    background-color: #273036;
+    color: #f3f4f5;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+}
+
 
 @media only screen and (max-width: 768px) {
     .experience-description{

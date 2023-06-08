@@ -1,35 +1,30 @@
 import { Route } from "@angular/router";
-import { HomeComponent } from "./home/home.component";
-import { SkillsComponent } from "./skills/skills.component";
-import { ExperiencesComponent } from "./experiences/experiences.component";
-import { ProjectsComponent } from "./projects/projects.component";
-import { ContactComponent } from "./contact/contact.component";
 
 export default [
     {
         path: 'home',
-        component: HomeComponent,
+        loadChildren: () => import('./home/home.component').then(c => c.HomeComponent),
         pathMatch: 'full',
         title: 'Inicio'
     },
     {
         path: 'skills',
-        component: SkillsComponent,
+        loadComponent: () => import('./skills/skills.component').then(c => c.SkillsComponent),
         title: 'Habilidades'
     },
     {
         path: 'experiences',
-        component: ExperiencesComponent,
+        loadComponent: () => import('./experiences/experiences.component').then(c => c.ExperiencesComponent),
         title: 'Experiencias'
     },
     {
         path: 'projects',
-        component: ProjectsComponent,
+        loadComponent: () => import('./projects/projects.component').then(c => c.ProjectsComponent),
         title: 'Proyectos'
     },
     {
         path: 'contact',
-        component: ContactComponent,
+        loadComponent: () => import('./contact/contact.component').then(c => c.ContactComponent),
         title: 'Contacto'
     }
 ] as Route[];
